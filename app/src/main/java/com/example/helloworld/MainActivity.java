@@ -11,7 +11,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        TextView txv = (TextView) findViewById(R.id.txv);
+        TextView txv=(TextView)findViewById(R.id.txv);
         txv.setText("Hello REAMED");
         Masetr();
     }
@@ -20,5 +20,11 @@ public class MainActivity extends AppCompatActivity {
     {
         TextView txv = (TextView) findViewById(R.id.txv);
         txv.setText("Master");
+        TestDev();
+    }
+    public void TestDev()
+    {
+        TextView txv=(TextView)findViewById(R.id.txv);
+        txv.setText("DEV");
     }
 }
